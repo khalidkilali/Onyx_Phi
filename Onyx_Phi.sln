@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onyx_Phi", "Onyx_Phi.csproj", "{14572DC3-6954-4C34-98BF-3E0F7872B32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onyx_Test", "..\Onyx_Test\Onyx_Test.csproj", "{F9107461-DFB0-4414-89B4-44697325B5F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onyx_Contrat_Repository", "..\Onyx_Repository\Onyx_Contrat_Repository.csproj", "{4C80213F-45A2-4C14-AE3E-E6C1D44E9F9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phi_Repository", "Phi_Repository", "{844B2DA1-599D-4246-AFBC-D0BA26F14D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onyx_Entities_Repository", "..\Onyx_Entities_Repository\Onyx_Entities_Repository.csproj", "{D9754FB1-C740-44F4-A19E-51233EC6D3BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onyx_Implementation_Repository", "..\Onyx_Implementation_Repository\Onyx_Implementation_Repository.csproj", "{22CBF5CF-741B-49B2-9402-6DCDFF91F949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14572DC3-6954-4C34-98BF-3E0F7872B32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14572DC3-6954-4C34-98BF-3E0F7872B32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14572DC3-6954-4C34-98BF-3E0F7872B32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14572DC3-6954-4C34-98BF-3E0F7872B32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9107461-DFB0-4414-89B4-44697325B5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9107461-DFB0-4414-89B4-44697325B5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9107461-DFB0-4414-89B4-44697325B5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9107461-DFB0-4414-89B4-44697325B5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C80213F-45A2-4C14-AE3E-E6C1D44E9F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C80213F-45A2-4C14-AE3E-E6C1D44E9F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C80213F-45A2-4C14-AE3E-E6C1D44E9F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C80213F-45A2-4C14-AE3E-E6C1D44E9F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9754FB1-C740-44F4-A19E-51233EC6D3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9754FB1-C740-44F4-A19E-51233EC6D3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9754FB1-C740-44F4-A19E-51233EC6D3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9754FB1-C740-44F4-A19E-51233EC6D3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CBF5CF-741B-49B2-9402-6DCDFF91F949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CBF5CF-741B-49B2-9402-6DCDFF91F949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CBF5CF-741B-49B2-9402-6DCDFF91F949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CBF5CF-741B-49B2-9402-6DCDFF91F949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C80213F-45A2-4C14-AE3E-E6C1D44E9F9E} = {844B2DA1-599D-4246-AFBC-D0BA26F14D89}
+		{D9754FB1-C740-44F4-A19E-51233EC6D3BA} = {844B2DA1-599D-4246-AFBC-D0BA26F14D89}
+		{22CBF5CF-741B-49B2-9402-6DCDFF91F949} = {844B2DA1-599D-4246-AFBC-D0BA26F14D89}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67146E0E-C377-4575-A9D2-29F53D3CD5A1}
+	EndGlobalSection
+EndGlobal
